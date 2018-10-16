@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dsic.online.patterns.DashboardActivity"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:background="@color/black"
+    android:gravity="center">
+
+
+
+    <Button
+        android:id="@+id/bPlay"
+        android:src="@drawable/customized_play"
+        android:layout_height="45dp"
+        android:text="Play!"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:background="@drawable/customized_play"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="SEPARATOR"
+        android:layout_height="90sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/bScores"
+        android:src="@drawable/customized_score"
+        android:layout_height="45dp"
+        android:text="Scores"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:background="@drawable/customized_score"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="SEPARATOR"
+        android:layout_height="90sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/bSettings"
+        android:src="@drawable/customized_settings"
+        android:layout_height="45dp"
+        android:text="Settings"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:background="@drawable/customized_settings" />
+</LinearLayout>
